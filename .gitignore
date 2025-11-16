@@ -1,0 +1,6 @@
+# Ignore environment variables file with secrets
+.env
+.chainlit
+.files
+*.pyc
+_pycache_/
