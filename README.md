@@ -55,9 +55,11 @@ python run_example.py --backend litellm "Explain recursion in 30 words"
 python run_example.py --backend langchain "Give me a short bio for Ada Lovelace"
 python run_example.py --backend langchain_litellm "List 3 tips for unit testing"
 ```
-
+##ChainLit Web App:
 <img width="758" height="542" alt="image" src="https://github.com/user-attachments/assets/7bc59996-f8ef-42f5-a8b4-34050d360188" />
-<img width="935" height="452" alt="image" src="https://github.com/user-attachments/assets/949793e4-b1a3-4ed0-89ab-30eefe04e585" />
-<img width="860" height="428" alt="image" src="https://github.com/user-attachments/assets/a568d0c6-1543-4695-9350-3cf733a15d51" />
+
+##LangWatch App Traces:
+<img width="758" height="542" alt="image" src="https://github.com/user-attachments/assets/949793e4-b1a3-4ed0-89ab-30eefe04e585" />
+<img width="758" height="542" alt="image" src="https://github.com/user-attachments/assets/a568d0c6-1543-4695-9350-3cf733a15d51" />
 
 This project is provided as-is for educational purposes. Feel free to reuse and adapt the code for experiments.
