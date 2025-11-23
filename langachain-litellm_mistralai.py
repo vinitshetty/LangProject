@@ -27,7 +27,7 @@ client = ChatLiteLLM(
 )
 langwatch.setup()
 
-@langwatch.trace(name="Langchain - with Mistral AI Agent")
+@langwatch.trace(name="Langchain-LiteLLM - with Mistral AI Agent")
 def call_mistral_api(user_input='What is the best French cheese and explain to me?'):
     chat_response = client.invoke(
       [{"role": "system", "content": "Always give best answer in completeness around 25 words."},
