@@ -46,22 +46,18 @@ LLM_PROVIDER=mistral
 
 3) Run a simple example (choose a backend):
 
+
 ```powershell
+Launch Web Chat App: python -m chainlit run chat.py
+CLI:
 python run_example.py --backend mistral "What is the best French cheese and why?"
 python run_example.py --backend litellm "Explain recursion in 30 words"
 python run_example.py --backend langchain "Give me a short bio for Ada Lovelace"
 python run_example.py --backend langchain_litellm "List 3 tips for unit testing"
 ```
 
-About the example script
-
-The script `run_example.py` shows how to call the small wrapper functions in this repository (it chooses the module based on the `--backend` flag). It checks for required environment variables and prints helpful messages if they're missing.
-
-Notes and safety
-
-- These examples are written for educational and demo purposes only. Be careful not to commit real API keys to public repositories. Use `.env` and do not add it to source control.
-- The code prints short outputs and uses conservative tokens/timeout settings for simplicity.
-
-License
+<img width="758" height="542" alt="image" src="https://github.com/user-attachments/assets/7bc59996-f8ef-42f5-a8b4-34050d360188" />
+<img width="935" height="452" alt="image" src="https://github.com/user-attachments/assets/949793e4-b1a3-4ed0-89ab-30eefe04e585" />
+<img width="860" height="428" alt="image" src="https://github.com/user-attachments/assets/a568d0c6-1543-4695-9350-3cf733a15d51" />
 
 This project is provided as-is for educational purposes. Feel free to reuse and adapt the code for experiments.
