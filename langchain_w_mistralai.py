@@ -1,5 +1,5 @@
 import langwatch
-from langchain_w_mistralai import ChatMistralAI
+from langchain_mistralai import ChatMistralAI
 from langchain_core.runnables import RunnableConfig
 import os
 import asyncio

@@ -19,7 +19,7 @@ load_dotenv()
 BACKEND_TO_MODULE = {
     "mistral": "mistral",
     "litellm": "litellm_mistralai",
-    "langchain": "langchain_mistralai",
+    "langchain": "langchain_w_mistralai",
     "langchain_litellm": "langchain_litellm_mistralai",
 }
 
