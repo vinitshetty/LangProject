@@ -6,7 +6,7 @@ Tools used: MistralAI (model provider), LangWatch (tracing, monitoring and eval 
 
 Project integrations shown in this repository are implemented using the tools listed above.
 
-This repository is intentionally small and educational — it's a learning aid showing example wrappers for MistalAI integration with LangWatch in different scenarios:
+This repository is intentionally small and educational — it's a learning aid showing example wrappers for MistralAI integration with LangWatch in different scenarios:
 
 - Direct Mistral client usage (mistral.py)
 - LiteLLM provider usage (litellm_mistralai.py)
