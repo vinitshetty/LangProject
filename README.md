@@ -1,6 +1,10 @@
-# LangProject — Simple educational examples for MistralAI integrations
+# LangProject — Simple educational examples for MistralAI and LangWatch Integration
 
 Friendly, minimal project demonstrating four ways to call a MistralAI LLM and integrate with LangWatch for tracing and metrics.
+
+Tools used: MistralAI (model provider), LangWatch (tracing & monitoring), LangChain (LLM orchestration), LiteLLM (provider wrapper), and ChainLit (streaming chat frontend).
+
+Project integrations shown in this repository are implemented using the tools listed above.
 
 This repository is intentionally small and educational — it's a learning aid showing example wrappers for:
 
@@ -16,6 +20,8 @@ This repository is intentionally small and educational — it's a learning aid s
 - `litellm_mistralai.py` — example using `litellm` (provider agnostic wrapper).
 - `langchain_mistralai.py` — example using LangChain's Mistral adapter.
 - `langchain_litellm_mistralai.py` — LangChain with LiteLLM provider.
+
+
 - `requirements.txt` — packages needed to run the examples.
 - `examples/run_example.py` — a small runnable example script (see below).
 - `.env.example` — sample environment file showing required keys.
