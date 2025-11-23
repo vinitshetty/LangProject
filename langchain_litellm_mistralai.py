@@ -38,4 +38,6 @@ def call_mistral_api(user_input='What is the best French cheese and explain to m
     )
     return chat_response.content
 
-print(call_mistral_api())
+if __name__ == "__main__":
+    prompt ="What is the best French cheese and explain to me?"
+    print(call_mistral_api(prompt))
