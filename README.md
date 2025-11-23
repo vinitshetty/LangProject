@@ -6,7 +6,7 @@ Tools used: MistralAI (model provider), LangWatch (tracing, monitoring and eval 
 
 Project integrations shown in this repository are implemented using the tools listed above.
 
-This repository is intentionally small and educational — it's a learning aid showing example wrappers for:
+This repository is intentionally small and educational — it's a learning aid showing example wrappers for MistalAI integration with LangWatch in different scenarios:
 
 - Direct Mistral client usage (mistral.py)
 - LiteLLM provider usage (litellm_mistralai.py)
@@ -38,8 +38,8 @@ python -m pip install -r requirements.txt
 
 ```ini
 # .env
-MISTRAL_API_KEY=sk-your-mistral-key
-LANGWATCH_API_KEY=sk-your-langwatch-key  # optional (used for tracing/monitoring)
+MISTRAL_API_KEY=sk-your-mistral-key #https://admin.mistral.ai/organization/api-keys
+LANGWATCH_API_KEY=sk-your-langwatch-key  # optional (used for tracing/monitoring) https://app.langwatch.ai/
 MODEL_NAME=ministral-3b-latest
 LLM_PROVIDER=mistral
 ```
