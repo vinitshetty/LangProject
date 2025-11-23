@@ -2,7 +2,7 @@
 
 Friendly, minimal project demonstrating four ways to call a MistralAI LLM and integrate with LangWatch for tracing and metrics.
 
-Tools used: MistralAI (model provider), LangWatch (tracing & monitoring), LangChain (LLM orchestration), LiteLLM (provider wrapper), and ChainLit (streaming chat frontend).
+Tools used: MistralAI (model provider), LangWatch (tracing, monitoring and eval framework), LangChain (LLM orchestration), LiteLLM (wrapper works across all model providers), and ChainLit (easy to use chat frontend).
 
 Project integrations shown in this repository are implemented using the tools listed above.
 
