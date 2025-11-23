@@ -1,4 +1,4 @@
-# LangProject — Simple educational examples for MistralAI and LangWatch Integration
+# LangProject — Simple educational examples for MistralAI integrations
 
 Friendly, minimal project demonstrating four ways to call a MistralAI LLM and integrate with LangWatch for tracing and metrics.
 
