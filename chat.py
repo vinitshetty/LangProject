@@ -1,6 +1,6 @@
 import chainlit as cl
 #import mistral as ms
-import langchain as lc
+import langchain_mistralai as lc
 import os
 import langwatch
 
